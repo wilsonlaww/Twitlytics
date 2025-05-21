@@ -6,7 +6,7 @@ import org.apache.spark.sql.functions._
 import java.text.SimpleDateFormat
 import java.util.{Calendar, Date}
 
-object Task5 {
+object WeeklyTopTopics {
   def main(args: Array[String]): Unit = {
     if (args.length != 2) {
       println("Usage: spark-submit Task5 <input_file> <start_date>")

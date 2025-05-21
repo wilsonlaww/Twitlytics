@@ -3,7 +3,7 @@ package edu.ucr.cs.cs167.jsuci001
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.{DataFrame, SparkSession, Row}
 
-object Task3 {
+object ML_TopicClassifier {
   def main(args: Array[String]): Unit = {
     val inputfile: String = args(0) // tweets_topic.json
 

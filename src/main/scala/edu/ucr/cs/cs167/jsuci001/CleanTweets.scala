@@ -4,7 +4,7 @@ import org.apache.spark.SparkConf
 import org.apache.spark.sql.functions.{col, explode}
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
-object Task1 {
+object CleanTweets {
 
   def main(args: Array[String]) {
     val operation: String = args(0)
