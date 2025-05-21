@@ -4,7 +4,7 @@ import org.apache.spark.SparkConf
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.functions._
 
-object ExtractTopHastags {
+object ExtractTopHashtags {
   def main(args: Array[String]): Unit = {
     val inputfile: String = args(0) // tweets_clean.json
 
